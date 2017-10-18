@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<title>Contact Us</title>
+
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<div id="header">
+		</div>
+		
+		<div id="leftcol">	
+
+			<div id="menu">
+
+				<a href="index.html">
+
+					Home
+
+				</a>
+				
+				<a href="about.html">
+
+					About
+
+				</a>
+
+				<a href="contact.html">
+
+					Contact Us
+
+				</a>
+
+				<a href="links.html">
+
+					Links
+
+				</a>
+
+				<a href="services.html">
+
+					Services
+
+				</a>
+
+			</div>					<!-- End of the Menu-->
+		
+		</div>						<!-- End of Left Col-->
+		
+		<div id="rightcol">
+		
+			<h1>
+				Contact Us Form
+			</h1>
+			
+			<p>
+				Please send your details to us.
+			</p>
+								<!-- Form starts here -->
+			<form method="post" id="myform" action="myemail@gmail.com">			
+
+				<table class="mytable">
+			
+					<tr>							<!--Start of text inputs-->
+						<td>Name:</td>
+						<td> <input type="text" name="fname"> </td>
+					</tr>
+
+					<tr>
+						<td>Surname:</td>
+						<td> <input type="text" name="sname"> </td>
+					</tr>
+
+					<tr>
+						<td>Email:</td>
+						<td> <input type="text" name="email"> </td>
+					</tr>
+												<!--End of text inputs-->
+					<tr>
+						<td>Age:</td>
+						<td> 
+							<input type="radio" name="age" value="15-20"> 15 - 20 <br>
+							<input type="radio" name="age" value="20-25"> 20 - 25 <br>
+							<input type="radio" name="age" value="25+"> 25 + <br>
+						</td>
+					</tr>
+			
+					<tr>
+						<td>Gender:</td>
+						<td> 
+							<input type="radio" name="gender" value="male"> Male 
+							<input type="radio" name="gender" value="female"> Female
+						</td>
+					</tr>
+
+					<tr>
+						<td>Sport:</td>
+						<td> 
+							<input type="checkbox" name="sport" value="soccer"> Soccer <br>
+							<input type="checkbox" name="sport" value="tennis"> Tennis<br>
+							<input type="checkbox" name="sport" value="golf"> Golf <br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Message:</td>
+						<td> 
+							<textarea cols="50" rows="5">Please send us feedback
+							</textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="submit" name="submit" value="submit">
+							<input type="reset" name="reset" value="reset">
+						</td>
+					</tr>
+
+				</table>
+
+			</form>	
+								<!-- Form ends here -->
+		
+		</div>
+		
+		<div class="clearall">
+		</div>
+		
+		<div id="footer">
+
+			Copyright &copy; Van Nguyen 2017
+
+		</div>
+	
+	</div>							<!-- End of Container-->
+
+</body>
+
+</html>

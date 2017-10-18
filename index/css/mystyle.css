@@ -1,0 +1,168 @@
+/* Global CSS */
+
+/* Layout CSS */
+
+
+#container	{
+			width:100%;
+			min-height:100%;
+			border:solid 1px black;
+			background-color:white;
+		}
+
+
+#header		{
+			min-height:100px;
+			background-color:#00b33c;
+			border-bottom:solid 1px black;
+		}
+
+
+#leftcol	{
+			width:200px;
+			min-height:900px;
+			border:solid 1px black;
+			background-color:#666;
+			float:left;
+		}
+
+
+#rightcol	{
+			min-height:450px;
+			margin-left:220px;
+			padding:10px;
+		}
+
+
+#footer		{
+			min-height:47px;
+			background-color:#004411;
+			color:white;
+			border-bottom:solid 1px black;
+		}
+		
+
+.clearall	{
+			min-height:0px;
+			clear:both
+		}
+
+
+/* Navigation CSS */
+
+
+#menu a		{
+			background-color:black;
+			color:white;
+			padding:5px;
+			border-left:solid 5px red;
+			text-decoration:none;
+			display:block;
+		}
+
+
+#menu a:hover	{
+			background-color:white;
+			color:black;
+			padding:5px;
+			border-left:solid 5px orange;
+			text-decoration:none;
+			display:block;
+		}
+
+
+/* General CSS */
+body		{
+			background-color:steelblue;
+		}
+h1		{
+			color:green;
+		}
+h2		{
+			color:limegreen;
+		}
+h3		{
+			color:aqua;
+		}
+h4		{
+			color:cyan;
+		}
+h5		{
+			color:blue;
+		}
+h6		{
+			color:midnightblue;
+		}
+
+.special	{
+			width:100px;
+			float:left;
+			padding:10px;
+			border:solid 1px #ccc;
+			background-color:#f1f1f1;
+			color:#999;
+			margin-right:10px;
+			margin-bottom:10px;
+			margin-top:0px;
+		}
+
+
+.special2	{
+			width:100px;
+			float:right;
+			padding:10px;
+			border:solid 1px #ccc;
+			background-color:#f1f1f1;
+			color:red;
+			margin-right:10px;
+			margin-bottom:10px;
+			margin-top:0px;
+		}
+
+#rightcol input	{
+		background-color:#ccc;
+		}
+
+
+#rightcol input:hover	{
+		background-color:Darkturquoise;
+		}
+
+.mytable	{
+		border:0px;
+		}
+
+/* images */
+
+.myimage1	{
+		border:5px solid lightgreen;
+		padding:5px;
+		width:150px;
+		}
+
+.myimage1:hover	{
+		border:5px solid red;
+		padding:5px;
+		width:150px;
+		}
+
+.myimage2	{
+		filter:blur(5px);
+		border:2px solid black;
+		}
+
+.myimage2:hover	{
+		filter:blur(5px);
+		border:2px solid red;
+		}
+
+.myimage3	{
+		border-radius:50%;
+		border:10px solid black;
+		}
+
+.myimage3:hover	{
+		border-radius:50%;
+		border:10px solid red;
+		}
+
